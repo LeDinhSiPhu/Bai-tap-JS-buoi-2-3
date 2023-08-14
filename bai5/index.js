@@ -4,5 +4,5 @@ function tinhChuso () {
     var hangDonvi = chuSo % 10 ;
     var tongChuso = hangChuc + hangDonvi;
     var ketQuaelement = document.getElementById("ketQua")
-    ketQuaelement = "Tổng các chữ số là :" + tongChuso
+    ketQuaelement.innerHTML = "Tổng các chữ số là :" + tongChuso
 }
